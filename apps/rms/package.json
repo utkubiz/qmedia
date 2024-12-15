@@ -24,11 +24,11 @@
 		"react-router-dom": "^6.27.0",
 		"zod": "^3.23.8",
 		"zod-i18n-map": "^2.27.0",
-		"typescript": "^5.5.4"
+		"typescript": "^5.5.4",
+		"@qmedia/typescript-config": "*",
+		"@qmedia/types": "*"
 	},
 	"devDependencies": {
-		"@qmedia/typescript-config": "*",
-		"@qmedia/types": "*",
 		"@types/react": "^18.3.11",
 		"@types/react-dom": "^18.3.1",
 		"@vitejs/plugin-react-swc": "^3.5.0",
