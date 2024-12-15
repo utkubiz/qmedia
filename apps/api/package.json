@@ -30,7 +30,8 @@
 		"@types/express": "^5.0.0",
 		"tsc": "^2.0.4",
 		"tsc-alias": "^1.8.10",
-		"tsx": "^4.19.1"
+		"tsx": "^4.19.1",
+		"typescript": "^5.5.4"
 	},
 	"engines": {
 		"node": "18"
