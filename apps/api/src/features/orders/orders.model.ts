@@ -1,15 +1,6 @@
+import { OrderStatus } from "@qmedia/types";
 import type { Document } from "mongoose";
 import mongoose, { Schema } from "mongoose";
-
-export enum OrderStatus {
-	NEW = "NEW",
-	CONFIRMED = "CONFIRMED",
-	PREPARING = "PREPARING",
-	READY = "READY",
-	ON_THE_WAY = "ON_THE_WAY",
-	DELIVERED = "DELIVERED",
-	CANCELLED = "CANCELLED",
-}
 
 export interface IOrderItem {
 	menuItemId: string;

@@ -1,9 +1,8 @@
 import exceptions from "@/exceptions/exceptions";
 import type { CustomRequest } from "@/shared/errors/CustomRequest";
+import { OrderStatus } from "@qmedia/types";
 import type { UserRoles } from "../user/user.type";
-import { OrderStatus } from "./orders.model";
 import { OrdersService } from "./orders.service";
-
 export const OrdersController = {
 	create: async (req: CustomRequest) => {
 		const { items, notes } = req.body;

@@ -1,4 +1,5 @@
-import type { Order, OrderStatus } from "@/features/orders/types/OrderTypes";
+import type { Order } from "@/features/orders/types/OrderTypes";
+import type { OrderStatus } from "@qmedia/types";
 import OrderCard from "./OrderCard";
 
 export default function OrdersGrid({

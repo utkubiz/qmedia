@@ -1,5 +1,5 @@
 import type { MenuItem } from "@/features/menu/types/Menu";
-
+import type { OrderStatus } from "@qmedia/types";
 export interface CategoryGroup {
 	categoryName: string;
 	menuItems: CategorizedMenuItem[];
@@ -48,15 +48,4 @@ export interface OrdersResponse {
 		totalPages: number;
 		hasMore: boolean;
 	};
-}
-
-export enum OrderStatus {
-	NEW = "NEW",
-	PENDING = "PENDING",
-	CONFIRMED = "CONFIRMED",
-	PREPARING = "PREPARING",
-	READY = "READY",
-	ON_THE_WAY = "ON_THE_WAY",
-	DELIVERED = "DELIVERED",
-	CANCELLED = "CANCELLED",
 }

@@ -10,9 +10,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"@qmedia/types": "*",
+		"@types/node": "^22.8.2",
 		"turbo": "^2.3.3",
-		"typescript": "5.5.4",
-		"@types/node": "^22.8.2"
+		"typescript": "^5.5.4"
 	},
 	"engines": {
 		"node": ">=18"

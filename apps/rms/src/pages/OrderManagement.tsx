@@ -1,9 +1,9 @@
 import ErrorAlert from "@/components/common/ErrorAlert";
 import LoadingSpinner from "@/components/common/LoadingSpinner";
 import { useGetAllOrdersQuery, useUpdateOrderStatusMutation } from "@/features/orders/orderApiSlice";
-import type { OrderStatus } from "@/features/orders/types/OrderTypes";
 import { formatDate } from "@/utils/formatDate";
 import { handleApiError } from "@/utils/handleApiError";
+import type { OrderStatus } from "@qmedia/types";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useTranslation } from "react-i18next";

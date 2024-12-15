@@ -1,4 +1,4 @@
-import { OrderStatus } from "@/features/orders/types/OrderTypes";
+import { OrderStatus } from "@qmedia/types";
 import { useTranslation } from "react-i18next";
 import type { OrderStatusWithAll } from "../types/KitchenTypes";
 

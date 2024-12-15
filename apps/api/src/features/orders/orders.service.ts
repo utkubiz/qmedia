@@ -2,7 +2,8 @@ import exceptions from "@/exceptions/exceptions";
 import { MenuService } from "../menu/menu.service";
 import { UserRoles } from "../user/user.type";
 import type { IOrderItem } from "./orders.model";
-import { OrderStatus } from "./orders.model";
+
+import { OrderStatus } from "@qmedia/types";
 import { OrdersRepository } from "./orders.repository";
 
 export const OrdersService = {

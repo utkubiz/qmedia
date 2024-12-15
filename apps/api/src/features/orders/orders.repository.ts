@@ -1,6 +1,6 @@
-import type { IOrder, OrderStatus } from "./orders.model";
+import type { OrderStatus } from "@qmedia/types";
+import type { IOrder } from "./orders.model";
 import { Order } from "./orders.model";
-
 export const OrdersRepository = {
 	create: async (orderData: Pick<IOrder, "userId" | "tenantId" | "items" | "totalAmount" | "notes" | "status">) => {
 		return Order.create(orderData);

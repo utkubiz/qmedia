@@ -1,6 +1,6 @@
 import api from "@/state/api";
-import type { CategoryGroup, Order, OrderRequest, OrderStatus, OrdersResponse } from "./types/OrderTypes";
-
+import type { OrderStatus } from "@qmedia/types";
+import type { CategoryGroup, Order, OrderRequest, OrdersResponse } from "./types/OrderTypes";
 const apiWithTag = api.enhanceEndpoints({ addTagTypes: ["Order"] });
 
 export const orderApiSlice = apiWithTag.injectEndpoints({

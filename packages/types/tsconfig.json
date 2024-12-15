@@ -1,0 +1,14 @@
+{
+	"extends": "@qmedia/typescript-config/types.json",
+	"compilerOptions": {
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": false,
+		"module": "ESNext",
+		"moduleResolution": "node"
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+}

@@ -1,5 +1,5 @@
 import type { Order } from "@/features/orders/types/OrderTypes";
-import { OrderStatus } from "@/features/orders/types/OrderTypes";
+import { OrderStatus } from "@qmedia/types";
 import { Bike, BikeIcon, CheckCircleIcon, CoffeeIcon, GraduationCap, Timer } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import StatusTimer from "./StatusTimer";

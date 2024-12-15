@@ -1,5 +1,4 @@
-import type { OrderStatus } from "@/features/orders/types/OrderTypes";
-
+import type { OrderStatus } from "@qmedia/types";
 export type KitchenOrderStatus =
 	| OrderStatus.CONFIRMED
 	| OrderStatus.PREPARING
