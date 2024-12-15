@@ -1,0 +1,16 @@
+{
+	"extends": "@qmedia/typescript-config/api.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"],
+			"$/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*.ts"],
+	"tsc-alias": {
+		"resolveFullPaths": true,
+		"verbose": false
+	}
+}

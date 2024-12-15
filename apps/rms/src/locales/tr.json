@@ -1,0 +1,169 @@
+{
+	"buttons": {
+		"login": "GİRİŞ YAP",
+		"addNewMenu": "Yeni Menü Ekle",
+		"edit": "Düzenle",
+		"delete": "Sil",
+		"update": "Güncelle",
+		"create": "Oluştur",
+		"cancel": "İptal",
+		"activate": "Aktif Yap",
+		"deactivate": "Pasif Yap",
+		"addMenuItem": "Menü Öğesi Ekle",
+		"addToCart": "Sepete Ekle",
+		"removeFromCart": "Kaldır",
+		"placeOrder": "Sipariş Ver",
+		"addNote": "Not Ekle",
+		"clearCart": "Sepeti Temizle",
+		"viewDetails": "Detayları Gör",
+		"previous": "Önceki",
+		"next": "Sonraki"
+	},
+	"placeholders": {
+		"email": "email@gmail.com",
+		"password": "Şifre",
+		"orderNotes": "Siparişiniz için özel talimat veya isteklerinizi ekleyin..."
+	},
+	"labels": {
+		"email": "Email",
+		"password": "Şifre",
+		"tenantId": "Mağaza ID",
+		"menuName": "Menü Adı",
+		"active": "Aktif",
+		"inactive": "Pasif",
+		"items": "ürün",
+		"itemName": "Ürün Adı",
+		"itemDescription": "Açıklama",
+		"itemPrice": "Fiyat",
+		"itemCategory": "Kategori",
+		"actions": "İşlemler",
+		"status": "Durum",
+		"stock": "Stok",
+		"lastUpdated": "Son Güncelleme",
+		"available": "Mevcut",
+		"unavailable": "Mevcut Değil",
+		"selectCategory": "Kategori Seç",
+		"enterCustomCategory": "Farklı bir kategori gir",
+		"total": "Toplam",
+		"quantity": "Adet",
+		"cart": "Sepet",
+		"orderSummary": "Sipariş Özeti",
+		"pricePerItem": "Birim fiyat",
+		"subtotal": "Ara toplam",
+		"orderNotes": "Sipariş Notları",
+		"optional": "İsteğe bağlı",
+		"page": "Sayfa",
+		"notes": "Notlar",
+		"orderId": "Sipariş No",
+		"orderDate": "Sipariş Tarihi"
+	},
+	"tooltips": {
+		"addToCart": "Bu ürünü sepete ekle",
+		"removeFromCart": "Bu ürünü sepetten çıkar",
+		"increaseQuantity": "Miktarı artır",
+		"decreaseQuantity": "Miktarı azalt",
+		"clearCart": "Tüm ürünleri sepetten çıkar",
+		"placeOrder": "Siparişi tamamla"
+	},
+	"messages": {
+		"noMenus": "Henüz menü bulunmamaktadır. Yeni menü oluşturmak için 'Yeni Menü Ekle' butonuna tıklayın.",
+		"menuCreated": "Menü başarıyla oluşturuldu",
+		"menuUpdated": "Menü başarıyla güncellendi",
+		"menuDeleted": "Menü başarıyla silindi",
+		"confirmDelete": "Bu menüyü silmek istediğinizden emin misiniz?",
+		"menuActivated": "Menü başarıyla aktif edildi",
+		"menuDeactivated": "Menü başarıyla pasif edildi",
+		"menuItemCreated": "Menü öğesi başarıyla oluşturuldu",
+		"noItems": "Bu menüde henüz ürün bulunmamaktadır",
+		"menuItemUpdated": "Menü öğesi başarıyla güncellendi",
+		"menuItemDeleted": "Menü öğesi başarıyla silindi",
+		"confirmDeleteItem": "Bu öğeyi silmek istediğinizden emin misiniz?",
+		"orderCreated": "Sipariş başarıyla oluşturuldu",
+		"itemAddedToOrder": "Ürün siparişe eklendi",
+		"cartEmpty": "Sepetiniz boş",
+		"itemAddedToCart": "Ürün sepete eklendi",
+		"itemRemovedFromCart": "Ürün sepetten çıkarıldı",
+		"orderFailed": "Sipariş oluşturulamadı",
+		"quantityUpdated": "Miktar güncellendi",
+		"confirmClearCart": "Sepetinizi temizlemek istediğinizden emin misiniz?",
+		"cartCleared": "Sepet temizlendi",
+		"orderStatusUpdated": "Sipariş durumu başarıyla güncellendi"
+	},
+	"errors": {
+		"default": "Sistemde teknik bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
+		"userNotFound": "Girdiğiniz e-posta adresi sistemde kayıtl değil.",
+		"invalidBody": "Eksik veya hatalı bilgi girildi.",
+		"userAlreadyExists": "Bu e-posta adresi ile kayıtlı bir hesap zaten mevcut.",
+		"emailPasswordDoesNotMatch": "E-posta adresi veya şifre hatalı.",
+		"menuAlreadyExists": "Bu mağaza için bu isimde bir menü zaten mevcut",
+		"failedToLoadMenus": "Menüler yüklenemedi. Lütfen tekrar deneyin.",
+		"menuIdNotFound": "Menü ID'si eksik veya geçersiz",
+		"failedToAddToCart": "Sepete eklenemedi",
+		"failedToRemoveFromCart": "Sepetten çıkarılamadı",
+		"failedToUpdateQuantity": "Miktar güncellenemedi",
+		"failedToCreateOrder": "Sipariş oluşturulamadı",
+		"failedToLoadOrders": "Siparişler yüklenemedi. Lütfen tekrar deneyin.",
+		"emptyCart": "Sepetiniz boş"
+	},
+	"validations": {
+		"tenantIdRequired": "Mağaza ID alanı boş bırakılamaz.",
+		"emailMinLength": "E-posta adresi en az 3 karakter olmalıdır.",
+		"invalidEmail": "Geçerli bir e-posta adresi giriniz.",
+		"passwordMinLength": "Şifre en az 6 karakter olmalıdır.",
+		"nameRequired": "İsim alanı zorunludur",
+		"priceRequired": "Fiyat alanı zorunludur",
+		"priceMin": "Fiyat 0'dan büyük olmalıdır",
+		"categoryRequired": "Kategori alanı zorunludur"
+	},
+	"titles": {
+		"menuManagement": "Menü Yönetimi",
+		"editMenu": "Menü Düzenle",
+		"createMenu": "Yeni Menü Oluştur",
+		"addMenuItem": "Menü Öğesi Ekle",
+		"editMenuItem": "Menü Öğesini Düzenle",
+		"orderManagement": "Sipariş Yönetimi"
+	},
+	"sidebar": {
+		"order": "Sipariş Oluştur",
+		"dashboard": "Panel",
+		"menus": "Menü Yönetimi",
+		"orderManagement": "Sipariş Yönetimi",
+		"kitchen": "Mutfak Ekranı"
+	},
+	"common": {
+		"logout": "Çıkış Yap"
+	},
+	"orderStatus": {
+		"ALL": "Tümü",
+		"NEW": "Yeni",
+		"CONFIRMED": "Onaylandı",
+		"PREPARING": "Hazırlanıyor",
+		"READY": "Hazır",
+		"ON_THE_WAY": "Yolda",
+		"DELIVERED": "Teslim Edildi",
+		"CANCELLED": "İptal Edildi"
+	},
+	"dashboard": {
+		"totalOrders": "Toplam Sipariş",
+		"pendingOrders": "Bekleyen Siparişler",
+		"totalRevenue": "Toplam Gelir",
+		"waiting": "beklemede",
+		"inProgress": "hazırlanıyor"
+	},
+	"kitchen": {
+		"noOrders": "Şu anda hazırlanacak sipariş bulunmamaktadır",
+		"timer": {
+			"age": "Süre",
+			"justNow": "Yeni",
+			"minutes": "{{minutes}} dk. önce",
+			"hoursAndMinutes": "{{hours}} sa. {{minutes}} dk. önce"
+		},
+		"actions": {
+			"startPreparing": "Hazırlamaya Başla",
+			"markReady": "Hazır Olarak İşaretle",
+			"markOnTheWay": "Yolda Olarak İşaretle",
+			"startOrder": "Siparişi Başlat",
+			"completeOrder": "Siparişi Tamamla"
+		}
+	}
+}

@@ -1,0 +1,168 @@
+{
+	"buttons": {
+		"login": "LOGIN",
+		"addNewMenu": "Add New Menu",
+		"edit": "Edit",
+		"delete": "Delete",
+		"update": "Update",
+		"create": "Create",
+		"cancel": "Cancel",
+		"activate": "Activate",
+		"deactivate": "Deactivate",
+		"addMenuItem": "Add Menu Item",
+		"addToCart": "Add to Cart",
+		"removeFromCart": "Remove",
+		"placeOrder": "Place Order",
+		"addNote": "Add Note",
+		"clearCart": "Clear Cart",
+		"viewDetails": "View Details"
+	},
+	"placeholders": {
+		"email": "email@gmail.com",
+		"password": "Password",
+		"orderNotes": "Add any special instructions or requests for your order..."
+	},
+	"labels": {
+		"email": "Email",
+		"password": "Password",
+		"tenantId": "Store ID",
+		"menuName": "Menu Name",
+		"active": "Active",
+		"inactive": "Inactive",
+		"items": "items",
+		"itemName": "Item Name",
+		"itemDescription": "Description",
+		"itemPrice": "Price",
+		"itemCategory": "Category",
+		"actions": "Actions",
+		"status": "Status",
+		"stock": "Stock",
+		"lastUpdated": "Last Updated",
+		"available": "Available",
+		"unavailable": "Unavailable",
+		"selectCategory": "Select a category",
+		"enterCustomCategory": "Enter custom category",
+		"total": "Total",
+		"quantity": "Quantity",
+		"cart": "Cart",
+		"orderSummary": "Order Summary",
+		"pricePerItem": "Price per item",
+		"subtotal": "Subtotal",
+		"orderNotes": "Order Notes",
+		"optional": "Optional",
+		"orderId": "Order ID",
+		"orderDate": "Order Date"
+	},
+	"tooltips": {
+		"addToCart": "Add to cart",
+		"removeFromCart": "Remove from cart",
+		"increaseQuantity": "Increase quantity",
+		"decreaseQuantity": "Decrease quantity",
+		"clearCart": "Clear all items from cart",
+		"placeOrder": "Complete your order"
+	},
+	"messages": {
+		"noMenus": "No menu available yet. Click 'Add New Menu' to create one.",
+		"menuCreated": "Menu created successfully",
+		"menuUpdated": "Menu updated successfully",
+		"menuDeleted": "Menu deleted successfully",
+		"confirmDelete": "Are you sure you want to delete this menu?",
+		"menuActivated": "Menu activated successfully",
+		"menuDeactivated": "Menu deactivated successfully",
+		"menuItemCreated": "Menu item created successfully",
+		"noItems": "No items in this menu yet",
+		"menuItemUpdated": "Menu item updated successfully",
+		"menuItemDeleted": "Menu item deleted successfully",
+		"confirmDeleteItem": "Are you sure you want to delete this item?",
+		"orderCreated": "Order created successfully",
+		"itemAddedToOrder": "Item added to order",
+		"cartEmpty": "Your cart is empty",
+		"itemAddedToCart": "Item added to cart",
+		"itemRemovedFromCart": "Item removed from cart",
+		"orderFailed": "Failed to create order",
+		"quantityUpdated": "Quantity updated",
+		"confirmClearCart": "Are you sure you want to clear your cart?",
+		"cartCleared": "Cart has been cleared",
+		"orderStatusUpdated": "Order status updated successfully"
+	},
+	"errors": {
+		"default": "A technical error occurred in the system. Please try again later.",
+		"userNotFound": "The email address you entered is not registered in the system.",
+		"invalidBody": "Incomplete or incorrect information was entered.",
+		"userAlreadyExists": "An account with this email address already exists.",
+		"emailPasswordDoesNotMatch": "Email address or password is incorrect.",
+		"menuAlreadyExists": "A menu with this name already exists for this store",
+		"failedToLoadMenus": "Failed to load menus. Please try again.",
+		"menuIdNotFound": "Menu ID is missing or invalid",
+		"failedToAddToCart": "Failed to add item to cart",
+		"failedToRemoveFromCart": "Failed to remove item from cart",
+		"failedToUpdateQuantity": "Failed to update quantity",
+		"failedToCreateOrder": "Failed to create order",
+		"emptyCart": "Cannot place order with empty cart",
+		"failedToLoadOrders": "Failed to load orders"
+	},
+	"validations": {
+		"tenantIdRequired": "Store ID field cannot be empty.",
+		"emailMinLength": "Email address must be at least 3 characters.",
+		"invalidEmail": "Please enter a valid email address.",
+		"passwordMinLength": "Password must be at least 6 characters.",
+		"nameRequired": "Name is required",
+		"priceRequired": "Price is required",
+		"priceMin": "Price must be greater than 0",
+		"categoryRequired": "Category is required"
+	},
+	"titles": {
+		"menuManagement": "Menu Management",
+		"editMenu": "Edit Menu",
+		"createMenu": "Create New Menu",
+		"addMenuItem": "Add Menu Item",
+		"editMenuItem": "Edit Menu Item",
+		"orderManagement": "Order Management"
+	},
+	"sidebar": {
+		"order": "Order",
+		"dashboard": "Dashboard",
+		"menus": "Menu Management",
+		"orderManagement": "Order Management"
+	},
+	"common": {
+		"logout": "Logout"
+	},
+	"orderStatus": {
+		"NEW": "New",
+		"ON_THE_WAY": "On The Way",
+		"PREPARING": "Preparing",
+		"READY": "Ready",
+		"DELIVERED": "Delivered",
+		"CANCELLED": "Cancelled",
+		"CONFIRMED": "Confirmed"
+	},
+	"dashboard": {
+		"totalOrders": "Total Orders",
+		"pendingOrders": "Pending Orders",
+		"totalRevenue": "Total Revenue",
+		"waiting": "waiting",
+		"inProgress": "in progress"
+	},
+	"kitchen": {
+		"noOrders": "No orders to prepare at the moment",
+		"timer": {
+			"age": "Age",
+			"justNow": "Just now",
+			"minutes": "{{minutes}}m",
+			"hoursAndMinutes": "{{hours}}h {{minutes}}m"
+		}
+	},
+	"notifications": {
+		"sound": {
+			"enable": "Enable sound notifications",
+			"disable": "Disable sound notifications"
+		},
+		"types": {
+			"newOrder": "New Order",
+			"statusChange": "Status Changed",
+			"alert": "Alert",
+			"success": "Success"
+		}
+	}
+}

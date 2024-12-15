@@ -1,0 +1,12 @@
+Always respond in English. Give your answers regarding biome.json rules.
+- add type="button" to all button components.
+- define props types inline. not as seperace object
+- when you create a new file use 4 spaces indent
+- always use tailwind css classes.
+- when you use a component from lucide-react, import it from lucide-react.
+- when you use a component from react-router-dom, import it from react-router-dom.
+- when you use a component from react-i18next, import it from react-i18next.
+- when you use a component from react-hook-form, import it from react-hook-form.
+- always use the correct import syntax.
+- always use the correct prop types as inline. not as seperace object.
+- always use translation keys for all text. if needed.
