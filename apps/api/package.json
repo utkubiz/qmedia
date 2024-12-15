@@ -21,9 +21,7 @@
 		"nanoid": "^5.0.7",
 		"typescript": "^5.5.4",
 		"tsc": "^2.0.4",
-		"tsc-alias": "^1.8.10"
-	},
-	"devDependencies": {
+		"tsc-alias": "^1.8.10",
 		"@qmedia/typescript-config": "*",
 		"@qmedia/types": "*",
 		"@types/bcryptjs": "^2.4.6",
@@ -32,6 +30,7 @@
 		"@types/cors": "^2.8.17",
 		"@types/express": "^5.0.0"
 	},
+	"devDependencies": {},
 	"engines": {
 		"node": ">=18"
 	}

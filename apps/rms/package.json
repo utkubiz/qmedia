@@ -26,9 +26,7 @@
 		"zod-i18n-map": "^2.27.0",
 		"typescript": "^5.5.4",
 		"@qmedia/typescript-config": "*",
-		"@qmedia/types": "*"
-	},
-	"devDependencies": {
+		"@qmedia/types": "*",
 		"@types/react": "^18.3.11",
 		"@types/react-dom": "^18.3.1",
 		"@vitejs/plugin-react-swc": "^3.5.0",
@@ -39,6 +37,7 @@
 		"tailwindcss": "^3.4.14",
 		"vite": "^5.4.9"
 	},
+	"devDependencies": {},
 	"engines": {
 		"node": ">=18"
 	}
