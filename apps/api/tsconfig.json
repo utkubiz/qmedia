@@ -12,6 +12,6 @@
 	"include": ["src/**/*.ts"],
 	"tsc-alias": {
 		"resolveFullPaths": true,
-		"verbose": false
+		"verbose": true
 	}
 }
